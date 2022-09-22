@@ -1,0 +1,116 @@
+html{
+  margin: 0;
+  background-color: #17202A;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+
+}
+
+#container-guest,
+#container-home{
+  width: 350px;
+  background-color: #808B96;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.title{
+  text-align: center;
+
+}
+
+.scoreboard{
+ font-weight:bold;
+ font-size: 50px;
+ text-align: center;
+ color: #ECF0F1;
+ margin-bottom: 0px;
+}
+
+
+
+.scoreboard-sub{
+  font-size: 20px;
+  text-align: center;
+  color: #ECF0F1;
+  margin: 0;
+}
+
+#guest-score,
+#home-score{
+  font-weight:bold;
+  font-size: 50px;
+  text-align: center;
+  color:#F4D03F;
+}
+
+#guest-status,
+#home-status{
+  font-weight: 300px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.home, .guest{
+  font-size: 30px;
+  font-weight: 500px;
+  color: #C0392B;
+}
+
+.score-btn{
+  width: 50px;
+  font-size: 20px;
+  font-weight: 300px;
+  border-radius: 5px;
+  border: 1px solid #EAFAF1;
+  margin-right: 10px;
+}
+
+.score-btn:hover{
+  cursor: pointer;
+  background-color: #EAFAF1;
+}
+
+.div-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.reset-btn{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset-btn button{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 300px;
+  border-radius: 5px;
+  border: 1px solid #58D68D;
+  background-color: #58D68D;
+}
+.reset-btn button:hover{
+  cursor: pointer;
+}
+
+#who-wins{
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
